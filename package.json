@@ -1,7 +1,7 @@
 {
   "name": "movie-box",
   "version": "0.1.0",
-  "private": true,
+  "private":  true,
   "dependencies": {
     "@auth0/auth0-react": "^1.10.2",
     "@emotion/react": "^11.9.3",
@@ -32,13 +32,15 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
+  "browserslist":  {
     "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
-    "development": [
+    "development":  [
+
+      
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
