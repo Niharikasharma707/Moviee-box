@@ -8,7 +8,7 @@ function LandingPageContent() {
   return (
     <div className="landingpagecontent_container">
       <p className="landingpagecontent_title">
-        Unlimited films, TV programmes and more.
+        Unlimited films, TV programmes and  much more.
       </p>
       <p className="landingpagecontent_subtitle">
         Watch from anywhere. Cancel at anytime

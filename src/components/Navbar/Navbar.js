@@ -21,10 +21,10 @@ function Navbar({ showSignInButton, logOut, show }) {
     }
   };
 
-  useEffect(() => {
+  useEffect(() =>   {
     window.addEventListener("scroll", transitionNavBar);
 
-    return () => {
+    return () =>  {
       //cleanup function
       window.removeEventListener("scroll", transitionNavBar);
     };
@@ -61,7 +61,7 @@ function Navbar({ showSignInButton, logOut, show }) {
           <h4 className="user_name"> {user && `Hi ${user.name}`} </h4>
           <p
             onClick={() =>
-              logout({
+               logout({
                 returnTo: window.location.origin,
               })
             }

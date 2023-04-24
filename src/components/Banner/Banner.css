@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
+    color: red;
     z-index: 1;
 }
 .banner_contents{
@@ -32,17 +32,17 @@
     padding-bottom: 5px;
     padding-right: 20px;
     background-color: transparent;
-    color: white;
+    color: black;
     outline: none;
-    border: none;
-    background-color:rgb(163, 100, 223);
+    border-color: whitesmoke;
+    background-color: red;
     font-size: 00.8rem;
     font-weight: bolder;
     cursor: pointer!important;
 }
 
 .banner_buttons > button:hover{
-    background-color: white;
-    color: black;
+    background-color: white ;
+    color: red;
     cursor: pointer;
 }

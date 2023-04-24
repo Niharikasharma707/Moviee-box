@@ -4,11 +4,13 @@ import LandingPageContent from "../../components/LandingPageContent/LandingPageC
 
 function LandingPage() {
   return (
+    
     <div className="landingpage_container">
       <Navbar />
       <LandingPageContent />
     </div>
   );
+  
 }
 
 export default LandingPage;

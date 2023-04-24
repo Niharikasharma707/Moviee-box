@@ -12,7 +12,7 @@ function SignIn() {
       <Navbar showSignInButton={false} show={true} />
       {/* <SignInBody /> */}
       <div className="login_button_container">
-        <button onClick={() => loginWithRedirect()}>Log In</button>
+        <button onClick={() =>   loginWithRedirect()}> Log In</button>
       </div>
     </div>
   );

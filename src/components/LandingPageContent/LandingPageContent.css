@@ -1,5 +1,7 @@
 .landingpagecontent_container{
-    background-color: aquamarine;
+    
+        
+  background-color: rgb(222, 210, 212);
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -36,7 +38,7 @@
     height: 37px;
     width: 130px;
     padding: 0 15px;
-    background-color: green;
+    background-color: red;
     color: white;
     font-weight: bolder;
     border: none;

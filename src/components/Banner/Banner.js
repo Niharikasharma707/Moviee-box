@@ -4,13 +4,13 @@ import requests from "../../requests/Requests";
 import "./Banner.css";
 
 function Banner() {
-  const [movie, setMovie] = useState([]);
+  const [movie, setMovie] = useState([]); 
 
-  useEffect(() => {
+  useEffect(()   => {
     fetchData();
-  }, []);
+  }, []); //empty array is passed 
 
-  async function fetchData() {
+  async function fetchData() {          //block the execution of code with await keyword used with it  
     const request = await axios.get(
       //"https://api.themoviedb.org/3/trending/all/week?api_key=764f7c9744867f406a4f2f298992f079&language=en-US"
     requests.fetchNetflixOriginals
@@ -29,7 +29,7 @@ function Banner() {
 
   return (
     <div
-      className="banner"
+      className= "banner"
       style={{
         backgroundImage: movie?.backdrop_path
           ? `url(https://image.tmdb.org/t/p/original${movie?.backdrop_path})`

@@ -11,7 +11,7 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
   const base_url = "https://image.tmdb.org/t/p/original/";
 
   useEffect(() => {
-    fetchData();
+     fetchData(); //fetch data array dependency
   }, []);
 
   async function fetchData() {
@@ -26,7 +26,7 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
     },
   };
   const handleClick = (movie) => {
-    if (trailerUrl) {
+    if (trailerUrl)  {
       setTrailerUrl("");
     } else {
       movieTrailer(movie?.name || movie?.title || movie?.original_title || "")

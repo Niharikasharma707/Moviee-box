@@ -16,9 +16,9 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={isAuthenticated ? <HomePage /> : <LandingPage />}
+            element={isAuthenticated ?  <HomePage /> : <LandingPage />}
           />
-          <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/sign-in"  element={<SignIn />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -7,6 +7,7 @@ import Row from "../../components/Row/Row";
 function HomePage() {
   return (
     <div>
+        
       <Navbar showSignInButton={false} logOut={true} />
       <Banner />
       <Row
@@ -15,7 +16,7 @@ function HomePage() {
         isLargeRow
       />
       <Row
-        title="Science Fiction"
+         title="Science Fiction"
         fetchUrl="https://api.themoviedb.org/3/movie/now_playing?api_key=764f7c9744867f406a4f2f298992f079&language=en-US"
       />
       <Row
@@ -23,7 +24,7 @@ function HomePage() {
         fetchUrl="https://api.themoviedb.org/3/discover/movie?api_key=764f7c9744867f406a4f2f298992f079&language=en-US"
       />
       <Row
-        title="Netflix Originals"
+        title="Tv Serials"
         fetchUrl="https://api.themoviedb.org/3/discover/tv?api_key=764f7c9744867f406a4f2f298992f079&language=en-US"
       />
       <Row
